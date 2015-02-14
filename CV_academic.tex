@@ -1,8 +1,15 @@
 %resume.tex template from link at
 %http://mboedick.org/code/latex_resume_tips.php
-\documentclass[11pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 \usepackage{fullpage}
 \pagestyle{empty}
+\newcommand{\role}[5]{
+\begin{tabular*}{150mm}{l@{\extracolsep{\fill}}r}
+#5 & #1--#2 \\ 
+\multicolumn{2}{p{140mm}}{\textbf{#3}{#4}} 
+\end{tabular*}
+\vspace{0.1in}
+ }
 \begin{document}
 \begin{tabular*}{160mm}{l@{\extracolsep{\fill}}r}
   \textbf{Date} & \today \\
@@ -16,43 +23,41 @@
 \end{tabular*}
 \vspace{0.1in}
 \\
-{\large \textbf{Employment History}}
-\begin{itemize}
-  \item
-    \begin{tabular*}{140mm}{l@{\extracolsep{\fill}}l}
-      \textbf{July 2003--Present} & Postdoctoral Research Assistant in
-      the Ion Trap\\
-      &  Quantum Information Processor group\\
-      & (University of Oxford)
-    \end{tabular*}
-  \item
-    \begin{tabular*}{140mm}{l@{\extracolsep{\fill}}l}
-      \textbf{January 1999--July 1999} & Research Engineer at Special
-      Research Centre\\
-      & for Advanced Mineral and Material Processing \\
-      & (University of Western Australia)
-    \end{tabular*}
-\end{itemize}
-%\vspace{0.1in}
-{\large \textbf{Education}}
-\begin{itemize}
-  \item
-    \begin{tabular*}{140mm}{l@{\extracolsep{\fill}}r}
-      \textbf{October 1999--June 2003} & \textbf{University of Oxford}
-    \end{tabular*}
-    \\
-    \begin{tabular*}{140mm}{l}
-      DPhil in Atomic and Laser Physics \\
-      Thesis title ``Two-Photon Readout Methods for\\
-      an Ion Trap Quantum Information Processor'' \\
-    \end{tabular*}
-  \item
-    \begin{tabular*}{140mm}{l@{\extracolsep{\fill}}r}
-      \textbf{February 1993--November 1998} & 
-      \textbf{University of Western Australia}\\
-      BSc (Chemical Physics) (hons. 1st Class)& \\
-      BE (Materials) (hons. 1st Class)&\\
-    \end{tabular*}
+{\large \textbf{Employment History}}\\
+\vspace{0.1in}
+\begin{tabular}{l}
+  \role{July 2014}{Present}{Quantitative Analyst}{ in the Solutions Design
+  group}{Fidelity Worldwide Investment} \\
+  \role{July 2013}{July 2014}{Senior Quantitative Developer}{}
+    {Fidelity Worldwide Investment} \\
+  \role{September 2011}{July 2013}{Quantitative Developer}{}
+    {Fidelity Worldwide Investment} \\
+  \role{July 2007}{August 2011}{Technical Consultant}{ in the Consulting
+  Services group}{The MathWorks, Ltd.} \\
+  \role{September 2006}{April 2007}{Reseach Fellow}{ in the Hydrogen
+  Cooling group}{Griffith University} \\
+  \role{July 2003}{August 2006}{Postdoctoral Research Assistant}{ in the
+    Ion Trap Quantum Information Processor group}{University of Oxford} \\
+  \role{October 2002}{May 2003}{Tutor}{ in First Year Classical Mechanics at
+  Keble College}{Keble College, University of Oxford}\\
+  \role{January 1999}{July 1999}{Research Engineer}{ in the 
+      Special Research Centre for Advanced Mineral and Material
+      Processing}{University of Western Australia}\\
+\end{tabular}
+\\
+\vspace{0.1in}
+{\large \textbf{Education}}\\
+\vspace{0.1in}
+\begin{tabular}{l}
+  \role{October 1999}{June 2003} 
+     {DPhil in Atomic and Laser Physics.}{ Thesis title: 
+     ``Two-Photon Readout Methods for an Ion Trap Quantum Information
+     Processor''}
+     {University of Oxford} \\
+  \role{February 1993}{November 1998}
+      {BSc (Chemical Physics) (hons. 1st Class), BE (Materials) (hons. 1st
+      Class}{}
+      {University of Western Australia}
     \\
     \begin{tabular*}{140mm}{ll}
       \textbf{Prizes:}\\
@@ -80,7 +85,7 @@
 %       TEE Subjects:  Applicable Mathematics, Calculus, &\\
 %       Chemistry, Computing, Physics, English Literature &
 %     \end{tabular*}
-\end{itemize}
+\end{tabular} \\
 %
 {\large \textbf{Publications}}
 %\begin{tabular*}{140mm}{l}
