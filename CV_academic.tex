@@ -3,10 +3,13 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage{fullpage}
 \pagestyle{empty}
-\newcommand{\role}[5]{
+\newcommand{\role}[6]{
 \begin{tabular*}{150mm}{l@{\extracolsep{\fill}}r}
 #5 & #1--#2 \\ 
-\multicolumn{2}{p{140mm}}{\textbf{#3}{#4}} 
+\multicolumn{2}{p{140mm}}
+{\textbf{#3}#4
+
+#6} 
 \end{tabular*}
 \vspace{0.8mm}
  }
@@ -24,56 +27,84 @@
 \vspace{0.1in}
 \\
 {\large \textbf{Summary}}\\
-  Currently a Quantitative Analyst working in the Solutions Design team
-  within the Fidelity Solutions group.  This involves development of
-  multi-asset products to meet the needs of bespoke customer mandates and
-  retail products. The main focus is on risk management and ALM. 
-  
-  My
-  previous role within Fidelity was as a Quantitative Developer working
-  with an equities group developing models and statistical analyses using
-  MATLAB, FactSet, Bloomberg, Java, Oracle PL/SQL, COM. Primarily using
-  MATLAB for the statistical analysis and numerical modelling, Java as a
-  glue language between MATLAB and the data sources when needed. 
-  
-  Prior to
-  joining Fidelity I worked as a Project Engineer at The MathWorks Ltd.
-  This position was in the Consulting Services group, and focused on
-  application and algorithm development for a range of clients.  
-  
-  Prior
-  experience has predominantly been in academia. My DPhil was in Atomic and
-  Laser Physics from the University of Oxford from which I progressed to
-  post doctoral roles working on quantum information processing experiments
-  at the University of Oxford and Griffith University. This work has
-  involved a mixture of experimental work on cold ions combined with
-  numerical and theoretical studies of their expected behaviour.
-
-  Specialties: MATLAB, Application development, GUI, Mathematica, Ocaml,
-  C/C++. Research level knowledge of quantum theory. Multivariate calculus,
-  statistics, stochastic calculus.
+Quantitative Analyst focusing on modelling of volatility controlled
+multi-asset products. \\
+Expert MATLAB developer with 10+ years experience of using the MathWorks
+tools in academic, technical consulting and quantitative development roles.
+\\
+Excellent software development skills with knowledge of a range of
+languages and software engineering techniques.
 
 \vspace{0.1in}
 {\large \textbf{Employment History}}\\
 \vspace{0.1in}
 \begin{tabular}{l}
   \role{July 2014}{Present}{Quantitative Analyst}{ in the Solutions Design
-  group}{Fidelity Worldwide Investment} \\
+  group}{Fidelity Worldwide Investment}
+  {Working in the Solutions Design team
+  to develop multi-asset products within the Fidelity Solutions group. This
+  involves modelling and simulation of suitable portfolio management
+  strategies and strategic asset allocation choices.}\\
   \role{July 2013}{July 2014}{Senior Quantitative Developer}{}
-    {Fidelity Worldwide Investment} \\
+    {Fidelity Worldwide Investment}
+    {Promotion from Quantitative Developer to Senior Quantitative Developer}\\
   \role{September 2011}{July 2013}{Quantitative Developer}{}
-    {Fidelity Worldwide Investment} \\
+    {Fidelity Worldwide Investment}
+    {Develop analysis and simulation tools for equities analysis. This
+    ranges over a number of business areas
+     including quantitative rating of securities, portfolio management,
+     trade cost measurement, and investment
+      solutions.}\\
   \role{July 2007}{August 2011}{Technical Consultant}{ in the Consulting
-  Services group}{MathWorks} \\
+  Services group}{MathWorks}
+    {Customer-facing role working with MathWorks customers in a range of
+    industries to increase productivity and maximize the value of their
+    investment in MathWorks tools, by providing custom coaching and bespoke
+    application development. Main role is software development in MATLAB to
+    provide solutions in a range of areas including: - Parallelization
+    using MATLAB Parallel Computing Toolbox (PCT) and MATLAB Distributed
+    Computing Server. - Deployment of MATLAB algorithms to C\# and Java
+    applications using MATLAB Builder NE and MATLAB Builder JA. -
+    Development of scalable MATLAB applications using the MATLAB Object
+    Oriented Programming system. - Integration of deployed MATLAB
+    components in the .NET environment by writing C\# unit tests in NUnit to
+    test functionality. - Support and maintenance of large-scale MATLAB
+    applications produced by other consultants in previous consulting
+    engagements for large Finance, Automotive, and Aerospace/Defense
+    customers. Demonstrating best practice in use of MathWorks tools by: -
+    Presenting MathWorks tools for Scientific Computing, Parallel
+    Computing, Symbolic Mathematics, Statistics and Optimization at
+    customer seminars. - On-site support and code reviews for customers. -
+    Coaching in areas such as MATLAB application development, Discrete
+    Event Simulation using SimEvents, image processing, data import and
+    analysis, and best practices for improving code efficiency.} \\
   \role{September 2006}{April 2007}{Reseach Fellow}{ in the Hydrogen
-  Cooling group}{Griffith University} \\
+  Cooling group}{Griffith University}
+    {Research into new methods of cooling novel atomic and molecular species
+    using ultrafast lasers. Involved only in the initial phase of this
+    project: - set up a high repetition rate mode-locked Ti:sapphire laser
+    - wrote lab automation software in LabVIEW - set up the Drupal content
+    management system to manage the group website. Main achievement: -
+    LabVIEW automation software to control the experiment in realtime with
+    microsecond resolution using an FPGA card.}\\
   \role{July 2003}{August 2006}{Postdoctoral Research Assistant}{ in the
-    Ion Trap Quantum Information Processor group}{University of Oxford} \\
+    Ion Trap Quantum Information Processor group}{University of Oxford}{
+      Research into experimental implementation of quantum computing.
+      Achieved the first demonstration of two-qubit entanglement in an ion
+      trap system in the UK. Achieved creation of mesoscopic superposition
+      states of a single ion. This presented a number of challenges as my
+      original experiments did not agree with those of other groups.
+      Finding the reason for this discrepancy required me to develop a
+      numerical simulation of the system, and compare the predictions to
+      the experimentally observed results. This led to the discovery of
+      novel physics due to the particular parameters of our experiment.
+      Teaching duties consisting of demonstrating the Physics Computing
+      Course with programming in C, Python and Pascal.}\\
   \role{October 2002}{May 2003}{Tutor}{ in First Year Classical Mechanics at
-  Keble College}{Keble College, University of Oxford}\\
+  Keble College}{Keble College, University of Oxford}{}\\
   \role{January 1999}{July 1999}{Research Engineer}{ in the 
       Special Research Centre for Advanced Mineral and Material
-      Processing}{University of Western Australia}\\
+      Processing}{University of Western Australia}{}\\
 \end{tabular}
 \\
 \vspace{0.1in}
@@ -84,11 +115,11 @@
      {DPhil in Atomic and Laser Physics.}{ Thesis title: 
      ``Two-Photon Readout Methods for an Ion Trap Quantum Information
      Processor''}
-     {University of Oxford} \\
+     {University of Oxford}{} \\
   \role{February 1993}{November 1998}
       {BSc (Chemical Physics) (hons. 1st Class),
        BE (Materials) (hons. 1st Class)}{}
-      {University of Western Australia}
+      {University of Western Australia}{}
     \\
     \begin{tabular*}{140mm}{ll}
       \textbf{Prizes:}\\
