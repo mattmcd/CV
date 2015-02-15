@@ -1,4 +1,7 @@
-all: output/McDonnell_CV_acad.pdf
+all: output/CV_MMcDonnell.pdf
 
-output/McDonnell_CV_acad.pdf: CV_academic.tex
-	pdflatex -output-directory=output -jobname=McDonnell_CV_acad CV_academic.tex
+output/CV_MMcDonnell.pdf: CV_MMcDonnell.tex
+	pdflatex -output-directory=output CV_MMcDonnell.tex
+
+clean:
+	rm -f output/*
