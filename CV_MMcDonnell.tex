@@ -2,6 +2,7 @@
 %http://mboedick.org/code/latex_resume_tips.php
 \documentclass[10pt,a4paper]{article}
 \usepackage{fullpage}
+\usepackage{hyperref}
 \pagestyle{empty}
 \newcommand{\role}[6]{
 \begin{tabular*}{150mm}{l@{\extracolsep{\fill}}r}
@@ -18,6 +19,7 @@
   \textbf{Name} & {\large \textbf{Dr Matthew McDonnell}} \\
   \input{contact}
   \textbf{email} & matt@matt-mcdonnell.com \\
+  \textbf{LinkedIn} & \url{https://uk.linkedin.com/pub/matt-mcdonnell/3/170/556}
 \end{tabular*}
 \vspace{0.1in}
 \\
@@ -25,15 +27,15 @@
 {\large \textbf{Summary}}\\
 \hline
 \begin{tabular}{p{145mm}}
+Excellent scientific computing development skills with knowledge of a range of
+software engineering techniques, including use of object
+oriented programming and design patterns. 
+\\
 Expert MATLAB developer with 10+ years experience using MathWorks
 tools in academic, technical consulting and quantitative development roles.
 \\
 Educated to Doctoral level in quantitative techniques used in experimental
 atomic and laser physics.
-\\
-Excellent software development skills with knowledge of a range of
-languages and software engineering techniques, including use of object
-oriented programming and design patterns. 
 \end{tabular}
 \end{tabular} \\
 \\
@@ -41,11 +43,11 @@ oriented programming and design patterns.
 \begin{tabular}{p{160mm}}
   {\large \textbf{Employment History}}\\
   \hline
-  \role{July 2014}{Present}{Quantitative Analyst}{ in the Solutions Design
+  \role{July 2014}{June 2015}{Quantitative Analyst}{ in the Solutions Design
   group}{Fidelity Worldwide Investment}
   {Development of volatility controlled multi-asset products 
   within the Fidelity Solutions group. This
-  involves modelling and simulation of portfolio management
+  involved modelling and simulation of portfolio management
   strategies and strategic asset allocation choices.}\\
   \role{July 2013}{July 2014}{Senior Quantitative Developer}{}
     {Fidelity Worldwide Investment}
@@ -113,9 +115,21 @@ oriented programming and design patterns.
 \begin{tabular}{p{145mm}}
 Expert in MATLAB application development.\\
 Mathematical modelling, numerical simulation, data analysis.\\
-MATLAB, Python, LabVIEW, Java, C++, C\#, Pascal, Ocaml, Erlang, Subversion, Git, Unix.\\
+MATLAB, Python, LabVIEW, Java, C++, JavaScript, C\#, SQL, Pascal, Ocaml, Erlang, Subversion, Git, Unix.\\
 Analytical approach to problem solving tasks, attention to detail,
 ability to work in a team or individual environment.\\
+\end{tabular}
+\end{tabular}
+\vspace{0.1in}
+\begin{tabular}{p{160mm}}
+{\large \textbf{Code Samples}}\\
+\hline
+\begin{tabular}{p{145mm}}
+MATLAB in Physics (MATLAB) \url{http://bit.ly/1KU0IIg}\\
+Image Processing with OpenCV in browser (JavaScript,C++)
+\url{http://bit.ly/1uKUByf}\\
+Interface Code Generator between C and Python
+(ANTLR,Java) \url{http://bit.ly/107fmPw}\\
 \end{tabular}
 \end{tabular}
 \vspace{0.1in}
@@ -133,7 +147,6 @@ statistical modelling to code development and integration into a production
 system.\\
 \end{tabular}
 \end{tabular}
-\\
 \vspace{0.1in}
 \begin{tabular}{p{160mm}}
 {\large \textbf{Publications}}\\
@@ -161,27 +174,28 @@ system.\\
     Stacey JP, Webster SC, Home JP, Ramos A, Lucas DM, Stacey DN,
     Steane AM, 
     \textit{Phys. Rev. Lett.} \textbf{93} 153601 (2004)
-  \item ``Isotope-selective photoionization for calcium ion
-    trapping'', Lucas DM, Ramos A, Home JP, McDonnell MJ, Nakayama S,
-    Stacey JP, Webster SC, Stacey DN, Steane AM,
-    \textit{Phys. Rev. A} \textbf{69} 012711 (2004)
-  \item ``Oxford Ion Trap Quantum Computing Project'', Lucas DM, Donald CJS,
-    Home JP, McDonnell M, Ramos A, Stacey DN, Stacey JP, Steane AM,
-    Webster SC, \textit{Phil. Tans. R. Soc. Lond. A} \textbf{361} 1401
-    (2003)
-  \item ``Search for correlation effects in linear chains of trapped
-    Ca$^{+}$ ions'', Donald CJS, Lucas DM, Barton PA, McDonnell MJ,
-    Stacey JP, Stevens DA, Stacey DN, Steane AM,
-    \textit{Europhys. Lett.} \textbf{51} 388--394 (2000)
-  \item ``Magnetisation of thin films under oblique field
-    conditions'', McDonnell M, Street R, Woodward RC, Chapman JN,
-    \textit{J. Magnetism and Magnetic Materials} \textbf{177}
-    1281--1282 (1998)
-  \item ``Photocurrent autocorrelation of femtosecond laser pulses in
-    poly(p-phenylene vinylene)'', Samoc M, Samoc A, Luther-Davies B,
-    Dowd A, McDonnell M, \textit{J. Phys. D} \textbf{30} 895--899 (1997)
+%  \item ``Isotope-selective photoionization for calcium ion
+%    trapping'', Lucas DM, Ramos A, Home JP, McDonnell MJ, Nakayama S,
+%    Stacey JP, Webster SC, Stacey DN, Steane AM,
+%    \textit{Phys. Rev. A} \textbf{69} 012711 (2004)
+%  \item ``Oxford Ion Trap Quantum Computing Project'', Lucas DM, Donald CJS,
+%    Home JP, McDonnell M, Ramos A, Stacey DN, Stacey JP, Steane AM,
+%    Webster SC, \textit{Phil. Tans. R. Soc. Lond. A} \textbf{361} 1401
+%    (2003)
+%  \item ``Search for correlation effects in linear chains of trapped
+%    Ca$^{+}$ ions'', Donald CJS, Lucas DM, Barton PA, McDonnell MJ,
+%    Stacey JP, Stevens DA, Stacey DN, Steane AM,
+%    \textit{Europhys. Lett.} \textbf{51} 388--394 (2000)
+%  \item ``Magnetisation of thin films under oblique field
+%    conditions'', McDonnell M, Street R, Woodward RC, Chapman JN,
+%    \textit{J. Magnetism and Magnetic Materials} \textbf{177}
+%    1281--1282 (1998)
+%  \item ``Photocurrent autocorrelation of femtosecond laser pulses in
+%    poly(p-phenylene vinylene)'', Samoc M, Samoc A, Luther-Davies B,
+%    Dowd A, McDonnell M, \textit{J. Phys. D} \textbf{30} 895--899 (1997)
 \end{itemize}
 }
+
 \end{tabular}
 \end{tabular}
 \end{document}
