@@ -14,6 +14,15 @@
 \end{tabular*}
 \vspace{2mm}
  }
+\newcommand{\titleonlyrole}[5]{   % Small role template for older entries
+\begin{tabular*}{150mm}{l@{\extracolsep{\fill}}r}
+#5 & #1--#2 \\ 
+\multicolumn{2}{p{145mm}}
+{\textbf{#3}#4}
+% {\small #6}
+\end{tabular*}
+\vspace{2mm}
+ }
 \begin{document}
 \centerline{\large \textbf{Dr Matthew McDonnell}}
 \centerline{matt@matt-mcdonnell.com}
@@ -39,7 +48,12 @@ scientific computing, machine learning and data science.\\
 \begin{tabular}{p{160mm}}
   {\large \textbf{Employment History}}\\
   \hline
-  \role{February 2019}{Present}{Development Specialist}{ in the Global Risk Analytics group}{HSBC}
+  \role{June 2019}{Present}{Senior Research Engineer}{}{Fetch.ai}
+  {Research and development of DeFi and other fintech applications that make use of the Fetch.ai technology stack. 
+   Combination of financial engineering with artificial intelligence models for autonomous economic agents 
+   to enable internet of things devices to interact through blockchain technology.
+  }\\
+  \role{February 2019}{June 2019}{Development Specialist}{ in the Global Risk Analytics group}{HSBC}
   {Development and productionization of frameworks for modelling Wholesale Credit Risk.
   }\\
   \role{November 2015}{February 2019}{Data Scientist}{}{Metail} 
@@ -81,23 +95,28 @@ scientific computing, machine learning and data science.\\
     development in MATLAB was the major part of this role together with 
     providing coaching and integration advice.
     } \\
-  \role{September 2006}{April 2007}{Research Fellow}{ in the Hydrogen
-  Cooling group}{Griffith University}
-    {
+{\footnotesize
+  \titleonlyrole{September 2006}{April 2007}{Research Fellow}{ in the Hydrogen
+  Cooling group}{Griffith University}}\\
+%%    {
     %Research into new methods of cooling novel atomic and molecular species
     %using ultrafast lasers.  
-   }\\
-  \role{July 2003}{August 2006}{Postdoctoral Research Assistant}{ in the
-    Ion Trap Quantum Information Processor group}{University of Oxford}{
+%%   }}\\
+{\footnotesize
+  \titleonlyrole{July 2003}{August 2006}{Postdoctoral Research Assistant}{ in the
+    Ion Trap Quantum Information Processor group}{University of Oxford}}\\
+%{
 %      Research into experimental implementation of quantum computing.  This
 %      combined theoretical modelling and development of numerical simulations of
 %      the system with experimental work.  
-}\\
-  \role{October 2002}{May 2003}{Tutor}{ in First Year Classical Mechanics at
-  Keble College}{Keble College, University of Oxford}{}\\
-  \role{January 1999}{July 1999}{Research Engineer}{ in the 
+%}}\\
+{\footnotesize
+  \titleonlyrole{October 2002}{May 2003}{Tutor}{ in First Year Classical Mechanics at
+  Keble College}{Keble College, University of Oxford}}\\
+{\footnotesize
+  \titleonlyrole{January 1999}{July 1999}{Research Engineer}{ in the 
       SRC for Advanced Mineral and Material
-      Processing}{University of Western Australia}{}\\
+      Processing}{University of Western Australia}}\\
 \end{tabular}
 \vspace{0.1in}
 \begin{tabular}{p{160mm}}
@@ -108,7 +127,7 @@ Expert in MATLAB application development.  Experienced with Python data science 
 Mathematical modelling, numerical simulation, data analysis.\\
 Analytical approach to problem solving tasks, attention to detail,
 ability to work in a team or individual environment.\\
-Python, SQL, SQLAlchemy, Pandas, NetworkX, Stan, Edward, Looker, FactSet, Bloomberg, PySpark, TensorFlow, MATLAB, 
+Python, Solidity, SQL, SQLAlchemy, Pandas, NetworkX, Stan, Edward, Looker, FactSet, Bloomberg, PySpark, TensorFlow, MATLAB, 
 Amazon Web Services, AWS Lambda, Amazon Redshift, Docker, Amazon Elastic Container Service\\
 % LabVIEW, Java, C++, JavaScript, C\#, Pascal, Ocaml, Erlang, Subversion, Git, Unix.\\
 \end{tabular}
