@@ -7,7 +7,7 @@ GitHub: https://www.github.com/mattmcd
 
 * Resourceful full stack data scientist developing and deploying mathematical models that provide actionable insights and 
   production solutions.
-* Achieves strategic business objectives through innovative analytical problem-solving and 
+* Achieves strategic business objectives through innovative analytical problem solving and 
   advanced technical skills in software development and mathematical modelling.
 * Works collaboratively with stakeholders in iterative model development and integration into production
 systems.
@@ -40,7 +40,7 @@ Demonstrated product to external stakeholders including index providers and comm
 Global Risk Analytics group. 
 Development of frameworks for modelling Wholesale Credit Risk.
 
-#### Data Scientist (Metail, November 2015 - February 2019)  
+#### Data Scientist (Metail Ltd, November 2015 - February 2019)  
 Development of data products and business intelligence based on virtual fitting room technology.
 
 Supported product adoption by quantifying the impact of Metail technology on business customer commercial and engagement KPIs 
@@ -48,7 +48,7 @@ using experimental design and causal inference techniques.
 Expanded the Metail product offering by developing machine learning algorithms for user segmentation,
 conversion prediction, body measurement inference, outfit recommendation, and other applications.  
 Automated analysis pipelines using Amazon Web Services.  
-Data Science Team Lead from October 2016 to March 2017 involving communication with stakeholders, 
+Team Lead from October 2016 to March 2017 involving communication with stakeholders, 
 sprint planning, and line management of two Data Scientists.
 
 #### Quantitative Analyst (Fidelity International, July 2014-June 2015)  
@@ -71,8 +71,8 @@ Hydrogen Cooling group. Research into methods of cooling novel atomic species us
 Ion Trap Quantum Information Processor group.
 Research combining theoretical modelling, development of numerical simulations of
 the system, and experimental work.  
-Achieved two first-author papers published in Physical Review Letters and contributed to
-to number of other peer-reviewed papers. 
+Achieved two first-author papers published in Physical Review Letters and contributed 
+to a number of other peer-reviewed papers. 
 
 #### Research Engineer  (University of Western Australia, January 1999-July 1999)
 Special Research Centre for Advanced Mineral and Material Processing.
@@ -94,7 +94,7 @@ Prizes:
 * Experienced to expert with Python data science tools and SQL.
 * Expert in MATLAB application development.
 * Mathematical modelling, numerical simulation, data analysis.
-* Analytical approach to problem solving tasks, attention to detail,
+* Analytical approach to problem solving, attention to detail,
 ability to work in a team or individual environment.
 * Python, Snowflake SQL, SymPy, Snowpark, PyMC, pymc-marketing, bambi, statsmodels, SQLAlchemy, Pandas, NetworkX, Scikit Learn, Stan, Looker,
 Solidity, FactSet, Bloomberg, PySpark, TensorFlow, JAX, MATLAB, Google Cloud Platform, Amazon Web Services, AWS Lambda,
