@@ -12,7 +12,7 @@ GitHub: https://www.github.com/mattmcd
 * Works collaboratively with stakeholders in iterative model development and integration into production
 systems.
 * Practiced in data science, machine learning, and technical computing.
-* Works best in as an  individual contributor in a collaborative team environment.
+* Works best as an individual contributor in a collaborative team environment.
 
 ## Employment History
 #### Senior Data Scientist (Jagex Ltd, October 2022 - August 2025)  
