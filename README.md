@@ -1,4 +1,4 @@
-# Dr Matthew McDonnell
+# Dr Matt McDonnell
 e-mail: matt@matt-mcdonnell.com   
 LinkedIn: https://www.linkedin.com/in/matt-mcdonnell-5561703   
 GitHub: https://www.github.com/mattmcd  
@@ -79,12 +79,11 @@ Special Research Centre for Advanced Mineral and Material Processing.
 
 ## Education
 ####  DPhil in Physics (University of Oxford, October 1999-June 2003)
-Thesis title: "Two-Photon Readout Methods for an Ion Trap Quantum Information Processor"
+Thesis: [Two-Photon Readout Methods for an Ion Trap Quantum Information Processor](https://www.matt-mcdonnell.com/thesis.pdf)
 
-#### BSc (hons) Chemical Physics (1st); BE (hons) Materials (1st)  (University of Western Australia,  February 1993-November 1998)
+#### BSc (hons) Chemical Physics (1st) / BE (hons) Materials (1st) (University of Western Australia,  February 1993-November 1998)
 
 Prizes:
-
 * 1996: Faculty of Science Medal for best Honours Science Student
 * 1996: J.A. Wood Memorial Prize for best Honours Student in 
         the Faculties of Science, Engineering, Medicine, Agriculture, and Dentistry
