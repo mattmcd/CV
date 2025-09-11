@@ -84,6 +84,7 @@ Thesis: [Two-Photon Readout Methods for an Ion Trap Quantum Information Processo
 #### BSc (hons) Chemical Physics (1st) / BE (hons) Materials (1st) (University of Western Australia,  February 1993-November 1998)
 
 Prizes:
+
 * 1996: Faculty of Science Medal for best Honours Science Student
 * 1996: J.A. Wood Memorial Prize for best Honours Student in 
         the Faculties of Science, Engineering, Medicine, Agriculture, and Dentistry
