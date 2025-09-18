@@ -1,15 +1,15 @@
 # Dr Matt McDonnell
-e-mail: matt@matt-mcdonnell.com - LinkedIn: https://www.linkedin.com/in/matt-mcdonnell-5561703   
+e-mail: matt@matt-mcdonnell.com - LinkedIn: https://www.linkedin.com/in/drmattmcd/   
 
 ## Profile
-* Resourceful full stack data scientist developing and deploying mathematical models that provide actionable insights and 
+Resourceful full stack data scientist developing and deploying mathematical models that provide actionable insights and 
   production solutions.
-* Achieves strategic business objectives through innovative analytical problem solving and 
+Achieves strategic business objectives through innovative analytical problem solving and 
   advanced technical skills in software development and mathematical modelling.
-* Works collaboratively with stakeholders in model development and integration into production
+Works collaboratively with stakeholders in model development and integration into production
 systems.
-* Practiced in data science, machine learning, and technical computing.
-* Works best as an individual contributor in a collaborative team environment.
+Practiced in data science, machine learning, and technical computing.
+Works best as an individual contributor in a collaborative team environment.
 
 ## Employment History
 ### Senior Data Scientist (Jagex Ltd, October 2022 - August 2025)  
@@ -25,10 +25,10 @@ Deployed production models via Snowflake Snowpark and kubernetes.
 ### Senior Research Engineer  (Uvue Ltd - Fetch.ai and Mettalex, June 2019 - July 2022) 
 Research and development of DeFi and other fintech applications.  
 
-From June 2020 as Mettalex CTO responsible for the full technology stack of Mettalex decentralized commodity exchange.  
+From June 2020 as Mettalex CTO responsible for the full technology stack of Mettalex decentralized commodity 
+exchange and Engineering Manager of a team of 5+ remote developers and designers.  
 Led the financial engineering and economic analysis to design the system and produce the Mettalex Litepaper.  
 Designed the serverless architectures for the backend system.   
-Engineering Manager of a team of 5+ remote developers and designers.  
 Technical lead for development of prototype system in early stages of the project.  
 Demonstrated product to external stakeholders including index providers and commodity traders.  
 
