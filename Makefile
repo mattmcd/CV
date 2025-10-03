@@ -1,10 +1,14 @@
-all: output/CV_MMcDonnell.pdf output/CV_MatthewMcDonnell.docx output_old/CV_MMcDonnell_old.pdf
+all: output/CV_MMcDonnell.pdf output/CV_MatthewMcDonnell.docx output_old/CV_MMcDonnell_old.pdf output_concise/CV_MMcDonnell.pdf
 
 output_old/CV_MMcDonnell_old.pdf: CV_MMcDonnell_old.tex
 	pdflatex -output-directory=output_old CV_MMcDonnell_old.tex
 
 output/CV_MMcDonnell.pdf: README.md
 	pandoc -V geometry:margin=1in -V pagestyle:empty -V block-headings -V fontsize:10pt -V colorlinks=true README.md -o output/CV_MMcDonnell.pdf
+
+output_concise/CV_MMcDonnell.pdf: cv_concise.md
+	pandoc -V geometry:margin=1in -V pagestyle:empty -V block-headings -V fontsize:10pt -V colorlinks=true cv_concise.md -o output_concise/CV_MMcDonnell.pdf
+
 
 output/CV_MatthewMcDonnell.docx: README.md
 	pandoc README.md -o output/CV_MatthewMcDonnell.docx
