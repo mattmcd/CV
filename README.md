@@ -9,7 +9,6 @@ Achieves strategic business objectives through innovative analytical problem sol
 Works collaboratively with stakeholders in model development and integration into production
 systems.
 Practiced in data science, machine learning, and technical computing.
-Works best as an individual contributor in a collaborative team environment.
 
 ## Employment History
 ### Senior Data Scientist (Jagex Ltd, October 2022 - August 2025)  
