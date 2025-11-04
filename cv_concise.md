@@ -2,8 +2,8 @@
 e-mail: matt@matt-mcdonnell.com - LinkedIn: https://www.linkedin.com/in/drmattmcd/   
 
 ## Profile
-Resourceful full stack data scientist developing and deploying mathematical models that provide actionable insights and 
-  production solutions.
+An experimental physicist applying a mathematics-based T-shaped profile to full stack data scientist challenges.  
+Builds solutions ranging from actionable insights to production systems and user applications.
 Achieves strategic business objectives through innovative analytical problem solving and 
   advanced technical skills in software development and mathematical modelling.
 Works collaboratively with stakeholders in model development and integration into production
